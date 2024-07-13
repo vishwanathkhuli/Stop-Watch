@@ -17,12 +17,12 @@ This is a simple stopwatch application built with vanilla JavaScript and styled 
 
 1. Clone this repository to your local machine.
     ```bash
-    git clone https://github.com/vishwanathkhuli/stopwatch-project.git
+    git clone https://github.com/vishwanathkhuli/Stop-Watch.git
     ```
 
 2. Navigate to the project directory.
     ```bash
-    cd stopwatch-project
+    cd Stop-Watch
     ```
 
 3. Open `index.html` in your preferred web browser to use the stopwatch.
