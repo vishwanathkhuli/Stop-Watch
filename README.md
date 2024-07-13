@@ -37,5 +37,6 @@ This is a simple stopwatch application built with vanilla JavaScript and styled 
 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
 
