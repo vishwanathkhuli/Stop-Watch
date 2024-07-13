@@ -1,0 +1,104 @@
+/* Base styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Images/Background-Image-Flowers.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for stopwatch */
+.stop-watch-container {
+    width: 50vw;
+    height: 50vh;
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0px 16px 5px #fff;
+}
+
+/* Display area for stopwatch */
+.displayDiv {
+    border: 0.2rem solid #555;
+    width: 70%;
+    height: 100%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    background-color: #ffffff;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for buttons */
+.buttons {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for buttons */
+.buttons button {
+    width: 60%;
+    margin: 8px;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for buttons */
+.buttons button:hover {
+    transform: scale(1.05);
+}
+
+/* Media query for screens up to 768px width */
+@media screen and (max-width: 768px) {
+    .stop-watch-container {
+        width: 80vw;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .buttons button {
+        width: 40%;
+    }
+}
+
+/* Media query for screens up to 576px width */
+@media screen and (max-width: 576px) {
+
+    /* xs devices */
+    .stop-watch-container {
+        width: 90%;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
+}
