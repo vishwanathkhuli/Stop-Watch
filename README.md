@@ -2,9 +2,15 @@
 
 This project was developed as part of a Coding Ninjas skill test to demonstrate proficiency in web development using HTML, CSS, and JavaScript.
 
+![Stopwatch Screenshot](Images/Stopwatch.png)
+
+
 ## Overview
 
 This is a simple stopwatch application built with vanilla JavaScript and styled using Bootstrap and custom CSS. The stopwatch allows users to start, stop, and reset the timer, displaying the elapsed time in minutes and seconds.
+
+## Hosted Link 
+####  [Stopwatch](https://vishwanathkhuli.github.io/Stop-Watch/)
 
 ## Features
 
